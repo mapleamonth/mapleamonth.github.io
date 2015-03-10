@@ -22,6 +22,9 @@ h2 {
 	font-weight: 700;
   	color: #707070;
 }
+footer {
+
+}
 .superjumbotron {
 
 }
@@ -63,6 +66,9 @@ h2 {
 #branding {
 	padding-left: 5%;
 }
+#copy {
+	margin-left: 40px;
+}
 #howitworks {
 	background-color:#faf7f6;
 	width: 100%;
@@ -79,6 +85,7 @@ h2 {
 	width: 27.5%;
 	 font-size: 14px;
 	color: white;
+	margin-left: 40px
 }
 #sample-box {
 	margin: 0 auto;
