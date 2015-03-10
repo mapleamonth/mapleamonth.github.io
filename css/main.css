@@ -63,6 +63,10 @@ h2 {
 #branding {
 	padding-left: 5%;
 }
+#howitworks {
+	background-color:#faf7f6;
+	width: 100%;
+}
 #intro-text {
 	position: relative;
 	top: -60px;
