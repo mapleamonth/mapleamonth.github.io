@@ -6,6 +6,16 @@
  body {
  	padding-top: 0px;
  }
+ footer {
+ 	background-color: black;
+ 	width:100%;
+ 	position:absolute;
+ 	left:0;
+ 	right:0;
+ }
+.superjumbotron {
+
+}
 .navbar-header {
 	height: 120px;
 }
@@ -22,10 +32,20 @@
 #nav-bar {
 	padding-top: 30px;
 }
+#footer-nav {
+	width: 27.5%;
+}
 
 #banner-top {
-	background-color: rgba(0, 0, 0, 0.29);
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top:0px;
+	width: 101.5%;
+	left: 0;
+	right: 0;
+
 }
+
 
 
 
