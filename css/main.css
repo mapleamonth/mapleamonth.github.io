@@ -59,6 +59,10 @@ h2 {
 #branding {
 	padding-left: 5%;
 }
+#intro-text {
+	position: relative;
+	top: -60px;
+}
 #nav-bar {
 	padding-top: 30px;
 	padding-right: 10%;
