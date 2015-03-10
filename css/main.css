@@ -1,6 +1,6 @@
 body {
  	padding-top: 0px;
- 	font-family: Roboto, sans-serif;
+ 	font-family: 'Roboto', sans-serif;
  }
 footer {
  	background-color: black;
@@ -11,6 +11,12 @@ footer {
  }
 a {
 	color: white;
+}
+h2 {
+	font-size: 40px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
 }
 .superjumbotron {
 
@@ -39,7 +45,16 @@ a {
 #banner-top a {
   font-weight: bold;
   font-size: 20px;
-  letter-spacing: -1px;
+  
+}
+#body-content {
+	font-family: Roboto, sans-serif;
+  	color: #4d4d4d;
+}
+#body-content p {
+	font-family: Roboto, sans-serif;
+  	color: #4d4d4d;
+  	font-size: 20px;
 }
 #branding {
 	padding-left: 5%;
