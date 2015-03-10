@@ -12,6 +12,10 @@ footer {
 a {
 	color: white;
 }
+h1 {
+		font-size: 5vw;
+
+}
 h2 {
 	font-size: 40px;
 	font-family: 'Bitter', serif;
