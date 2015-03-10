@@ -3,19 +3,29 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ body {
+ 	padding-top: 0px;
+ }
+.navbar-header {
+	height: 120px;
+}
+.navbar-logo {
+  height: 105px;
+  margin-top: 0px;
+  margin-right: -40px;
+}
 
+.top {
+	height: 120px;
+}
 
+#nav-bar {
+	padding-top: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
+#banner-top {
+	background-color: rgba(0, 0, 0, 0.29);
+}
 
 
 
