@@ -13,7 +13,10 @@ a {
 	color: white;
 }
 h1 {
-		font-size: 5vw;
+			font-size: 40px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
 
 }
 h2 {
@@ -21,9 +24,6 @@ h2 {
 	font-family: 'Bitter', serif;
 	font-weight: 700;
   	color: #707070;
-}
-footer {
-
 }
 .superjumbotron {
 
@@ -42,8 +42,7 @@ footer {
 }
 #banner-top {
 	background-color: rgba(0, 0, 0, 0.7);
-	position: absolute;
-	top:0px;
+
 	width: 101.5%;
 	left: 0;
 	right: 0;
