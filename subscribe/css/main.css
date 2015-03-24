@@ -72,6 +72,11 @@ h2 {
 	background-color:#faf7f6;
 	width: 100%;
 }
+#freeshipping {
+	position: absolute;
+	top: 0;
+	left: 5;
+}
 #intro-text {
 	position: relative;
 	top: -60px;
