@@ -69,6 +69,11 @@ footer {
 #copy {
 	margin-left: 40px;
 }
+#freeshipping {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 #howitworks {
 	background-color:#faf7f6;
 	width: 100%;
