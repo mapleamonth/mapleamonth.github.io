@@ -1,0 +1,103 @@
+body {
+ 	padding-top: 0px;
+ 	font-family: 'Roboto', sans-serif;
+ }
+footer {
+ 	background-color: black;
+ 	width:100%;
+ 	position:absolute;
+ 	left:0;
+ 	right:0;
+ }
+a {
+	color: white;
+}
+h1 {
+			font-size: 40px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
+
+}
+h2 {
+	font-size: 40px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
+}
+.superjumbotron {
+
+}
+.navbar-header {
+	height: 120px;
+}
+.navbar-logo {
+  height: 105px;
+  margin-top: 0px;
+  margin-right: -40px;
+}
+
+.top {
+	height: 120px;
+}
+#banner-top {
+	background-color: rgba(0, 0, 0, 1);
+
+	width: 101.5%;
+	left: 0;
+	right: 0;
+
+}
+#banner-top a {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+#body-content {
+	font-family: Roboto, sans-serif;
+  	color: #4d4d4d;
+}
+#body-content p {
+	font-family: Roboto, sans-serif;
+  	color: #4d4d4d;
+  	font-size: 20px;
+}
+#branding {
+	padding-left: 5%;
+}
+#copy {
+	margin-left: 40px;
+}
+#howitworks {
+	background-color:#faf7f6;
+	width: 100%;
+}
+#freeshipping {
+	position: absolute;
+	top: 0;
+	left: 5;
+}
+#intro-text {
+	position: relative;
+	top: -60px;
+}
+#nav-bar {
+	padding-top: 30px;
+	padding-right: 10%;
+}
+#footer-nav {
+	width: 10%;
+	 font-size: 14px;
+	color: white;
+	margin-left: 40px
+}
+#sample-box {
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
