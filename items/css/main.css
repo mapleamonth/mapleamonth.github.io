@@ -13,7 +13,10 @@ a {
 	color: white;
 }
 h1 {
-		font-size: 5vw;
+			font-size: 40px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
 
 }
 h2 {
@@ -22,8 +25,8 @@ h2 {
 	font-weight: 700;
   	color: #707070;
 }
-footer {
-
+h3 {
+	color: red;
 }
 .superjumbotron {
 
@@ -33,18 +36,17 @@ footer {
 }
 .navbar-logo {
   height: 105px;
-  margin-top: 7px;
+  margin-top: 0px;
   margin-right: -40px;
 }
 
 .top {
-	width: 110%;
+	height: 120px;
 }
 #banner-top {
-	background-color: rgba(0, 0, 0, 0.7);
-	position: absolute;
-	top:0px;
-	width: 104%;
+	background-color: rgba(0, 0, 0, 1);
+
+	width: 101.5%;
 	left: 0;
 	right: 0;
 
@@ -63,21 +65,11 @@ footer {
   	color: #4d4d4d;
   	font-size: 20px;
 }
-
-#body-content {
-	position: relative;
-  	top: -5em;
-}
 #branding {
 	padding-left: 5%;
 }
 #copy {
 	margin-left: 40px;
-}
-#freeshipping {
-	position: absolute;
-	top: 0;
-	left: 5;
 }
 #howitworks {
 	background-color:#faf7f6;
@@ -100,10 +92,7 @@ footer {
 #sample-box {
 	margin: 0 auto;
 }
-#specialbutton {
-	margin-left:auto;
-	margin-right: auto;
-}
+
 
 
 
