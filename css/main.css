@@ -79,6 +79,18 @@ footer {
 	top: 0;
 	left: 5;
 }
+#foodnetwork {
+	margin-bottom: 10px;
+	display: block; 
+	background: transparent url(../images/food-network-gray.png) center no-repeat;
+	width: 160px;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#foodnetwork:hover {
+	background-image: url(../images/food-network-canada.png);
+}
 #howitworks {
 	background-color:#faf7f6;
 	width: 100%;
