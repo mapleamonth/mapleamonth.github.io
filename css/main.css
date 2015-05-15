@@ -56,55 +56,9 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #E72222;
 }
-.intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../images/rsz_jumbotron.jpg) no-repeat center center;
-    background-size: cover;
-}
 
-.intro-message {
-    position: relative;
-    padding-top: 23%;
-    padding-bottom: 5%;
-}
-.freeshipping {
-	position: absolute;
-	top: 76px;
+/*------------------------------------------------------*/
 
-}
-.navbar-header {
-	height: 120px;
-}
-.navbar-logo {
-  height: 105px;
-  margin-top: 7px;
-  margin-right: -40px;
-}
-.paypal_btn{
-	display: inline-block;
-	font-family: inherit;
-	font-size: 24px;
-	font-weight: bold;
-	color: #fff;
-	text-align: center;
-	padding: 10px 14px;
-	margin: 0;
-	background: #BB0B0B;
-	border: 0;
-	border-radius: 12px;
-	cursor: pointer;
-	outline: none;
-}
-.paypal_btn:hover{ background: #9D0A0A; }
-.sub-banner {
-	background-color: black;
-}
-.top {
-	width: 110%;
-}
 .asSeenOn {
 }
 .banner-top {
@@ -153,9 +107,28 @@ ul.social-buttons li a:active {
 .foodnetwork:hover {
 	background-image: url(../images/food-network-canada.png);
 }
+.freeshipping {
+	position: absolute;
+	top: 76px;
+
+}
 .howitworks {
 	background-color:#faf7f6;
 	width: 100%;
+}
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/rsz_jumbotron.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 23%;
+    padding-bottom: 5%;
 }
 .intro-text {
 	position: relative;
@@ -165,11 +138,36 @@ ul.social-buttons li a:active {
 	padding-top: 30px;
 	padding-right: 10%;
 }
+.navbar-header {
+	height: 120px;
+}
+.navbar-logo {
+  height: 105px;
+  margin-top: 7px;
+  margin-right: -40px;
+}
+
 .footer-nav {
 	 font-size: 14px;
 	color: white;
 	margin-left: 40px
 }
+.paypal_btn{
+	display: inline-block;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 10px 14px;
+	margin: 0;
+	background: #BB0B0B;
+	border: 0;
+	border-radius: 12px;
+	cursor: pointer;
+	outline: none;
+}
+.paypal_btn:hover{ background: #9D0A0A; }
 .sample-box {
 	margin: 0 auto;
 }
@@ -177,7 +175,17 @@ ul.social-buttons li a:active {
 	margin-left:auto;
 	margin-right: auto;
 }
+.top {
+	width: 110%;
+}
 
+
+/*--------------------------------------------*/
+
+
+#sub-banner {
+	background-color: black;
+}
 
 
 
