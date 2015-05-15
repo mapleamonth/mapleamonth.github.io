@@ -65,9 +65,27 @@ ul.social-buttons li a:active {
   margin-top: 7px;
   margin-right: -40px;
 }
+.paypal_btn{
+	display: inline-block;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 10px 14px;
+	margin: 0;
+	background: #BB0B0B;
+	border: 0;
+	border-radius: 12px;
+	cursor: pointer;
+	outline: none;
+}
+.paypal_btn:hover{ background: #9D0A0A; }
 
 .top {
 	width: 110%;
+}
+#asSeenOn {
 }
 #banner-top {
 	background-color: rgba(0, 0, 0, 0.7);
