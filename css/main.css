@@ -25,6 +25,8 @@ h2 {
 footer {
 	font-size: 12px;
 	color: white;
+	position: relative;
+	top: 7em;
 }
 footer h4 {
 	border-bottom: 1px solid #fff;
@@ -54,7 +56,23 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #E72222;
 }
-.superjumbotron {
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/rsz_jumbotron.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 23%;
+    padding-bottom: 5%;
+}
+.freeshipping {
+	position: absolute;
+	top: 76px;
 
 }
 .navbar-header {
@@ -113,18 +131,13 @@ ul.social-buttons li a:active {
 
 #body-content {
 	position: relative;
-  	top: -5em;
+  	top: 6em;
 }
 #branding {
 	padding-left: 5%;
 }
 #copy {
 	margin-left: 40px;
-}
-#freeshipping {
-	position: absolute;
-	top: 76px;
-
 }
 #foodnetwork {
 	margin-bottom: 10px;
