@@ -99,13 +99,15 @@ ul.social-buttons li a:active {
 	outline: none;
 }
 .paypal_btn:hover{ background: #9D0A0A; }
-
+.sub-banner {
+	background-color: black;
+}
 .top {
 	width: 110%;
 }
-#asSeenOn {
+.asSeenOn {
 }
-#banner-top {
+.banner-top {
 	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top:0px;
@@ -114,32 +116,32 @@ ul.social-buttons li a:active {
 	right: 0;
 
 }
-#banner-top a {
+.banner-top a {
   font-weight: bold;
   font-size: 20px;
   
 }
-#body-content {
+.body-content {
 	font-family: Roboto, sans-serif;
   	color: #4d4d4d;
 }
-#body-content p {
+.body-content p {
 	font-family: Roboto, sans-serif;
   	color: #4d4d4d;
   	font-size: 20px;
 }
 
-#body-content {
+.body-content {
 	position: relative;
   	top: 6em;
 }
-#branding {
+.branding {
 	padding-left: 5%;
 }
-#copy {
+.copy {
 	margin-left: 40px;
 }
-#foodnetwork {
+.foodnetwork {
 	margin-bottom: 10px;
 	display: block; 
 	background: transparent url(../images/food-network-gray.png) center no-repeat;
@@ -148,30 +150,30 @@ ul.social-buttons li a:active {
 	margin-right: auto;
 	margin-left: auto;
 }
-#foodnetwork:hover {
+.foodnetwork:hover {
 	background-image: url(../images/food-network-canada.png);
 }
-#howitworks {
+.howitworks {
 	background-color:#faf7f6;
 	width: 100%;
 }
-#intro-text {
+.intro-text {
 	position: relative;
 	top: -60px;
 }
-#nav-bar {
+.nav-bar-class {
 	padding-top: 30px;
 	padding-right: 10%;
 }
-#footer-nav {
+.footer-nav {
 	 font-size: 14px;
 	color: white;
 	margin-left: 40px
 }
-#sample-box {
+.sample-box {
 	margin: 0 auto;
 }
-#specialbutton {
+.specialbutton {
 	margin-left:auto;
 	margin-right: auto;
 }
