@@ -61,8 +61,17 @@ ul.social-buttons li a:active {
 
 .asSeenOn {
 }
-.banner-top {
+.banner-main {
 	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top:0px;
+	width: 104%;
+	left: 0;
+	right: 0;
+
+}
+.banner-nonmain {
+	background-color: black;
 	position: absolute;
 	top:0px;
 	width: 104%;
@@ -134,6 +143,10 @@ ul.social-buttons li a:active {
 	position: relative;
 	top: -60px;
 }
+.items h3 {
+	color: red;
+}
+
 .nav-bar-class {
 	padding-top: 30px;
 	padding-right: 10%;
