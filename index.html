@@ -24,7 +24,9 @@
   <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" media="(max-width: 450px)" href="css/max-450px.css">
+  <link rel="stylesheet" media="(max-width: 330px)" href="css/max-330px.css">
+  <link rel="stylesheet" media="(max-width: 475px)" href="css/max-475px.css">
+  <link rel="stylesheet" media="(max-width: 767px)" href="css/max-767px.css">
   <link rel="stylesheet" media="(min-width: 1220px)" href="css/min-1220px.css">
 
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -33,11 +35,14 @@
 <body>
   <div class="row top banner-main" role="banner">
     <div class="navbar-header branding">
+      <button type="button" class="navbar-toggle collapsed mobile-menu" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
+        <i class="fa fa-bars"> Menu </i>
+      </button>
       <a href="#">
-        <img src="images/maple-a-month-logo-2-redux.png" class="navbar-logo img-responsive">
+        <img src="images/maple-a-month-logo-2-redux.png" class="navbar-logo img-responsive company-logo">
       </a>
     </div>
-    <div class="navbar-collapse collapse nav-bar-class">
+    <div class="navbar-collapse collapse nav-bar-class" id="menu1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://mapleamonth.com/subscribe.html">Subscribe</a>
         </li>

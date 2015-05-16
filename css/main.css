@@ -151,7 +151,11 @@ ul.social-buttons li a:active {
 .items h3 {
 	color: red;
 }
-
+.mobile-menu {
+	color: white;	
+	font-size: 22px;
+	top:20px;
+}
 .nav-bar-class {
 	padding-top: 30px;
 	padding-right: 10%;
@@ -162,7 +166,7 @@ ul.social-buttons li a:active {
 .navbar-logo {
   height: 105px;
   margin-top: 7px;
-  margin-right: -40px;
+
 }
 
 .footer-nav {

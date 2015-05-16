@@ -1,0 +1,13 @@
+#menu1 {
+	background-color: black;
+}
+#menu1 li {
+	margin-left: 20px;
+}
+#list-sub {
+	margin-top: 20px;
+}
+.banner-main {
+	background-color: black;
+	position:relative;
+}
