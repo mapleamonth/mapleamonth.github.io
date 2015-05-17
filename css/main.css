@@ -149,6 +149,10 @@ ul.social-buttons li a:active {
 .items h3 {
 	color: red;
 }
+.mail-list input {
+	color: gray;
+	width: 100%;
+}
 .maplenuts h3 {
 	text-decoration: underline
 }
