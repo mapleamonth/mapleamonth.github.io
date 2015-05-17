@@ -149,6 +149,9 @@ ul.social-buttons li a:active {
 .items h3 {
 	color: red;
 }
+.maplenuts h3 {
+	text-decoration: underline
+}
 .mobile-menu {
 	color: white;	
 	font-size: 22px;
@@ -170,7 +173,9 @@ ul.social-buttons li a:active {
 .footer-nav {
 	 font-size: 14px;
 	color: white;
-	margin-left: 40px
+	
+}
+.packages h3 {
 }
 .paypal_btn{
 	display: inline-block;
@@ -201,14 +206,14 @@ ul.social-buttons li a:active {
 }
 
 
-/*--------------------------------------------*/
-
-
 #sub-banner {
 	background-color: black;
 }
 
+/*-----------------Maple Nuts---------------------------*/
 
-
+.maplenuts .banner-main {
+	background-color: black;
+}
 
 

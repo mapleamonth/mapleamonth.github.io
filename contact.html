@@ -30,19 +30,25 @@
 
 <!-- -->
 
-<body>
-  <div class="row top banner-nonmain" role="banner">
-    <div class="navbar-header branding">
-      <a href="http://mapleamonth.com">
-        <img src="images/maple-a-month-logo-2-redux.png" class="navbar-logo">
+<body class="contact">
 
+    <!--Header with collapse navigation -->
+  <div class="top banner-main" role="banner">
+    <div class="navbar-header branding">
+      <button type="button" class="navbar-toggle collapsed mobile-menu" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
+        <i class="fa fa-bars"> Menu </i>
+      </button>
+      <a href="#">
+        <img src="images/maple-a-month-logo-2-redux.png" class="navbar-logo img-responsive company-logo">
       </a>
     </div>
-    <div class="navbar-collapse collapse nav-bar-class">
+    <div class="navbar-collapse collapse nav-bar-class" id="menu1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://mapleamonth.com/subscribe.html">Subscribe</a>
         </li>
         <li><a href="http://mapleamonth.com/items.html">Items</a>
+        </li>
+        <li><a href="http://mapleamonth.com/maplenuts.html">Maple Nuts</a>
         </li>
         <li><a href="http://mapleamonth.com/faq.html">FAQ</a>
         </li>
@@ -50,7 +56,6 @@
         </li>
       </ul>
     </div>
-    <!--/.nav-collapse -->
   </div>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -78,29 +83,39 @@
 
     </div>
 
-    <!-- Footer section -->
-    <footer>
-      <div class="row">
-        <br>
-        <br>
-        <br>
-        <div class="container">
-          <!--Menu --> 
-          <div class="col-sm-4">
-            <h4 class="text-uppercase text-center">See more</h4>
-            <ul class="nav navbar footer-nav">
-             <li><a href="http://mapleamonth.com">Home</a>
-             </li>
-             <li><a href="http://mapleamonth.com/subscribe.html">Subscribe</a>
-             </li>
-             <li><a href="http://mapleamonth.com/items.html">Items</a>
-             </li>
-             <li><a href="http://mapleamonth.com/faq.html">FAQ</a>
-             </li>
-             <li><a href="http://mapleamonth.com/contact.html">Contact</a>
-             </li>
-           </ul>
+<!-- Footer section -->
+  <footer>
+    <div class="row">
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <!--Menu --> 
+        <div class="col-sm-4">
+          <h4 class="text-uppercase text-center">See more</h4>
+          <div class="row">
+            <div class="col-sm-6 col-xs-6">
+              <ul class="nav navbar footer-nav">
+               <li><a href="http://mapleamonth.com">Home</a>
+               </li>
+               <li><a href="http://mapleamonth.com/subscribe.html">Subscribe</a>
+               </li>
+               <li><a href="http://mapleamonth.com/items.html">Items</a>
+               </li>
+             </ul>
+           </div>
+           <div class="col-sm-6 col-xs-6">
+              <ul class="nav navbar footer-nav">
+               <li><a href="http://mapleamonth.com/maplenuts.html">Maple Nuts</a>
+               </li>
+               <li><a href="http://mapleamonth.com/faq.html">FAQ</a>
+               </li>
+               <li><a href="http://mapleamonth.com/contacts.html">Contact</a>
+               </li>
+             </ul>
+           </div>
          </div>
+       </div>
 
          <!--Social media-->
          <div class="col-sm-4 text-center">
