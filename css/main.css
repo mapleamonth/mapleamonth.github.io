@@ -121,6 +121,11 @@ ul.social-buttons li a:active {
 }
 .freeshipping {
 	position: absolute;
+	top: 0px;
+
+}
+.packages .freeshipping {
+	position: absolute;
 	top: 76px;
 
 }
@@ -212,6 +217,15 @@ ul.social-buttons li a:active {
 
 #sub-banner {
 	background-color: black;
+}
+
+
+
+/*-----------------Subscribe---------------------------*/
+.subscribe .freeshipping {
+	position: absolute;
+	top: 76px;
+
 }
 
 /*-----------------Maple Nuts---------------------------*/
